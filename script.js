@@ -1,6 +1,6 @@
 /* CONFIGURATION: replace both placeholders before collecting real pilot data. */
 const GA_MEASUREMENT_ID='G-M8PC5KCVMF';
-const SCRIPT_URL='https://gomed-v1.vercel.app';
+const SCRIPT_URL='https://script.google.com/macros/s/AKfycbwtw-RVVZibZj_3rGwPJoahtUhS4etzjdnKraWuZznTeeuNlezu78fwZKDl8vc8W59z6w/exec';
 window.dataLayer=window.dataLayer||[];function gtag(){window.dataLayer.push(arguments)}
 if(GA_MEASUREMENT_ID!=='G-M8PC5KCVMF'){const s=document.createElement('script');s.async=true;s.src=`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;document.head.appendChild(s);gtag('js',new Date());gtag('config',GA_MEASUREMENT_ID)}
 function gaEvent(name,params={}){if(GA_MEASUREMENT_ID!=='G-M8PC5KCVMF')gtag('event',name,params)}function trackOrderClick(source='unknown'){gaEvent('order_now_click',{source})}function trackFormStarted(){gaEvent('form_started',{form_name:'pilot_order'})}function trackFormSubmitted(){gaEvent('form_completed',{form_name:'pilot_order'})}function trackConfirmationViewed(){gaEvent('confirmation_viewed',{page:'confirmation'})}
